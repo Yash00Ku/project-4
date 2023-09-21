@@ -1,0 +1,494 @@
+/*
+font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto', sans-serif;
+*/
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+body {
+	font-family: 'Roboto', sans-serif;
+}
+h1, h2, h3, h4, h5 {
+	font-weight: 700;
+}
+h1 {
+	font-size: calc(5rem + 1.5vw);
+}
+h2 {
+	font-size: 55px;
+}
+h3 {
+	font-size: 40px;
+}
+h4 {
+	font-size: 30px;
+}
+h5 {
+	font-size: 25px;
+}
+p {
+	font-size: 15px;
+}
+
+/*--------------------Nav-bar-------------------*/
+
+.navbar {
+	height: 85px;
+	background-color: #4a1831;
+}
+.navbar-nav li {
+	padding: 0px 40px;
+}
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show, .nav-link {
+	color: #ffd7ad !important;
+}
+.navbar-toggler-icon {
+	background-image: url('images/toggle-icon.png');
+	height: 2em;
+	width: 2em;
+}
+.navbar-toggler:focus {
+	box-shadow: none;
+}
+/*--------------------Nav-bar-Closed------------------*/
+
+/*--------------------Top-Banner---------------------*/
+
+.banner-bg {
+	background-image: url('images/banner-bg.jpg');
+	min-height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+.top-banner {
+	padding-left: 50px;
+	color: #ffd7ad;
+}
+.banner-logo {
+	padding-top: 45px;
+	padding-bottom: 40px;
+}
+.banner-h1 {
+	font-size: calc(5rem + 1.5vw);
+}
+.banner-p {
+	font-size: calc(1rem + 0.5vw);
+	margin-top: 30px;
+}
+button.banner-btn {
+	font-size: 15px;
+	font-weight: 700;
+	color: #4a1831;
+	background-color: #ffd7ad;
+	padding: 12px;
+	border-radius: 25px;
+	width: 250px;
+	margin: 20px 0px 70px;
+}
+
+
+/*--------------------top-Banner-Closed-------------------*/
+
+/*--------------------Menu--------------------*/
+.menu {
+	text-align: center;
+	background-color: #ffd7ad;	
+	color: #4a1831;	
+}
+.menu-content {
+	padding-top: 70px;
+}
+.menu-content p {
+margin: 40px 0px 0px;
+}
+
+button.menu-btn {
+	font-size: 15px;
+	font-weight: 700;
+	color: #ffd7ad;
+	background-color: #4a1831;
+	padding: 12px;
+	border-radius: 25px;
+	width: 200px;
+	margin: 60px 0px 70px;
+}
+.img-fluid {
+	width: 100%;
+	height: auto;
+}
+
+
+
+/*-------------------Menu-Closed------------------*/
+
+/*--------------------About-section--------------*/
+
+
+.about-section-img {
+	padding: 0px;
+}
+.about-content {
+	background-color: #ffd7ad;
+	padding-top: 20%;
+
+}
+button.tell-me-more-btn {
+	font-size: 15px;
+	font-weight: 700;
+	color: #ffd7ad;
+	background-color: #4a1831;
+	padding: 12px;
+	border-radius: 25px;
+	width: 200px;
+}
+
+
+
+/*-----------------About-section-closed--------------*/
+
+/*-----------------------Offer-Section--------------------*/
+
+.offer-section-img {
+	padding: 0px;
+}
+.offer-content {
+	padding: 0px 100px;
+	padding-top: 20%;
+	color: #ffd7ad;
+	background-color: #4a1831;
+
+}
+button.offer-btn {
+	font-size: 15px;
+	font-weight: 700;
+	color: #4a1831;
+	background-color: #ffd7ad;
+	padding: 12px;
+	border-radius: 25px;
+	width: 200px;
+}
+
+/*-------------------Offer-Section-Closed----------------------*/
+
+/*------------------Maxican-Food-Section------------*/
+
+.maxican-food-content {
+	text-align: center;
+	padding: 10% 20%;	
+}
+.maxican-food-logo, .maxican-food-content h5 {
+	pdding-bottom: 5%;
+}
+.maxican-food-content h4 {
+	padding-bottom: 10%;
+}
+
+.maxican-food-bg {
+	background-image: url('images/maxican-food.jpg');	
+	background-size: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+h4, h5 {
+	color: #ffd7ad;
+}
+.maxican-food-logo, .maxican-food-content h5 {
+	margin-bottom: 5%;
+}
+.maxican-food-content h4 {
+	padding-bottom: 10%;
+}
+
+/*----------------Maxican-Food-Section-Closed------------*/
+
+/*----------------latest-offer-section---------------------*/
+
+.latest-offers {
+	background-color: #ffd7ad;
+	color: #4a1831;
+	padding: 10%;
+}
+.latest-offers-txt {
+	text-align: center;
+}
+.latest-offers-txt p {
+	padding-top: 2.5%;
+}
+.form {
+	text-align: center;
+	padding-top: 5%;
+}
+.form input {
+	width: 280px;
+	padding: 6px 15px;
+	border: hidden;
+	border-radius: 25px;
+}
+::placeholder {
+	font-size: 15px;
+}
+button.subscribe-btn {
+	color: #fff;
+	background-color: #4a1831;
+	border: hidden;
+	border-radius: 25px;
+	font-size: 15px;
+	margin-left: -30px;
+	margin-top: -5px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+}
+
+
+/*-------------latest-offer-Section-Closed--------------------*/
+
+/*---------------------------footer-------------------------*/
+
+.footer {
+	background-color: #4a1831;
+	padding: 15% 5% 17%;
+	color: #ffd7ad;
+}
+.fa-brands {
+	padding: 10px;
+	background-color: #ffd7ad;
+	border-radius: 30px;
+	font-size: 20px;
+	color: #4a1831;
+	margin: 5% 1%;
+}
+.fa-facebook-f {
+	padding: 10px 15px;
+}
+.footer-abt {
+	padding-right: 20%;
+}
+
+
+
+
+/*------------------------footer-closed----------------------*/
+
+/*----------responsive--------------*/
+
+@media only screen and (min-width: 990px) {
+
+	.about-content p {
+		margin-right: 15%;
+	}
+	
+}
+@media only screen and (max-width: 992px) {
+
+	.offer-content {
+		padding: 0px 50px;
+		padding-top: 20%;
+	}
+	
+}
+
+
+@media only screen and (max-width: 1200px) {
+
+	.banner-h1 {
+		font-size: calc(4rem + 1.5vw);
+	}
+	.banner-logo img {
+		width: 130px;
+	}
+
+
+}
+@media only screen and (max-width: 768px) {
+	.banner-bg {
+		min-height: 50vh;
+	}
+	.banner-h1 {
+		font-size: calc(3rem + 1.5vw);
+		text-align: center;
+	}
+	.banner-logo {
+		padding-top: 40px;
+		padding-bottom: 20px;
+		text-align: center;
+		
+	}
+	.banner-txt {
+		text-align: center;
+	}
+	.banner-logo img {
+		width: 100px;
+	}
+	.top-banner {
+		padding-left: 0px;
+	}
+
+
+	h3 {
+		font-size: 30px;
+	}
+	h4 {
+		font-size: 20px;
+	}
+	h5 {
+		font-size: 16px;
+	}
+	p {
+		font-size: 10px;
+	}
+	.menu-content {
+		padding-top: 30px;
+	}
+	.menu-content p {
+		margin: 20px 0px 0px;
+	}
+	button.menu-btn {
+		font-size: 12px;	
+		padding: 8px;
+		border-radius: 25px;
+		width: 150px;
+		margin: 30px 0px 35px;
+	}
+	button.tell-me-more-btn {
+		font-size: 12px;	
+		padding: 8px;
+		border-radius: 25px;
+		width: 150px;		
+	}
+	button.offer-btn {
+		font-size: 12px;	
+		padding: 8px;
+		border-radius: 25px;
+		width: 150px;		
+	}
+
+	.footer {
+	padding: 7% 7%;
+	text-align: center;
+	}
+	.fa-brands {
+		padding: 7px;	
+		font-size: 15px;
+	}
+	.fa-facebook-f {
+		padding: 7px 9px;
+	}
+	.footer-abt {
+		padding: 5% 20%;
+	}
+	.abt-icons {
+		display: none;
+	}
+	.footer li {
+		font-size: 12px;
+	}
+
+	
+}
+
+@media only screen and (min-width: 768px) {
+
+	.footer-icons {
+		display: none;
+	}
+}
+@media only screen and (max-width: 575px) {
+
+	.about-content {
+		padding: 0px 50px;
+		text-align: center;
+	}
+	.offer-content {
+		text-align: center;
+		padding-top: 7%;
+	}
+	.maxican-food-content {
+		padding: 2% 10%;	
+	}
+	.maxican-food-logo, .maxican-food-content h5 {
+		pdding-bottom: 1.5%;
+	}
+	.maxican-food-content h4 {
+		padding-bottom: 1.5%;
+	}
+	img.logo-img {
+		width: 60px;
+	}
+	h2 {
+		font-size: 30px;
+	}
+	.maxican-food-content h4 {
+		font-size: 14px;
+	}
+	.maxican-food-content h5 {
+		font-size: 12px;
+	}
+
+	.latest-offers {
+		padding: 7%;
+	}
+	.latest-offers-txt p {
+		padding-top: 2.5%;
+	}
+	.form {
+		padding-top: 5%;
+	}
+	.form input {
+		width: 150px;
+		padding: 3px 9px;
+	}
+	::placeholder {
+		font-size: 10px;
+	}
+	button.subscribe-btn {
+		font-size: 10px;
+	}
+}
+
+
+@media only screen and (min-width: 575px) and (max-width: 1200px) {
+
+	.offer-content {
+		text-align: center;
+	}
+	.maxican-food-content {
+		padding: 5% 15%;	
+	}
+	.maxican-food-logo, .maxican-food-content h5 {
+		pdding-bottom: 3%;
+	}
+	.maxican-food-content h4 {
+		padding-bottom: 5%;
+	}
+	img.logo-img {
+		width: 100px;
+	}
+
+	h2 {
+		font-size: 40px;
+	}
+	.latest-offers {
+		padding: 10%;
+	}
+	.latest-offers-txt p {
+		padding-top: 2.5%;
+	}
+	.form {
+		padding-top: 5%;
+	}
+	.form input {
+		width: 230px;
+		padding: 4px 12px;
+	}
+	::placeholder {
+		font-size: 12px;
+	}
+	button.subscribe-btn {
+		font-size: 12px;
+	}
+
+}
+
+/*-----------------------Complete------------------------------*/
